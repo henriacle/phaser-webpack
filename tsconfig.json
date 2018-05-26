@@ -1,11 +1,21 @@
 {
     "compilerOptions": {
         "outDir": "./dist/",
+        "emitDecoratorMetadata": true,        
+        "moduleResolution": "node",
+        "experimentalDecorators": true,        
         "sourceMap": true,
         "noImplicitAny": true,
         "module": "es6",
         "target": "es5",
+        "removeComments": false,        
         "jsx": "react",
         "allowJs": true
-    }
+    },
+    "files": [
+        "./src/phaser.d.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]    
 }

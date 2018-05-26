@@ -1,5 +1,5 @@
-import Greeter from "./greeter";
+import SimpleGame from './game';
 
-const student = new Greeter("Henrique", "Assunção", "Clementino");
-
-document.body.innerHTML = student.greeter();
+window.onload = () => {
+    var game = new SimpleGame();
+};

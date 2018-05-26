@@ -1,5 +1,4 @@
 import Person from './person.interface';
-import * as phaser from 'phaser';
 
 class Student {
     fullName: string;
