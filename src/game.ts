@@ -65,7 +65,6 @@ class SimpleGame {
             this.player.body.velocity.x = 0;
             this.player.frame = 4;
         }
-
         if (this.cursors.up.isDown && this.player.body.touching.down && hitPlatform) {
             this.player.body.velocity.y = -350;
         }
