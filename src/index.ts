@@ -1,5 +1,7 @@
-import SimpleGame from './game';
+import 'phaser';
+import { SimpleGame } from './game';
+
 
 window.onload = () => {
-    var game = new SimpleGame();
+    var game = new SimpleGame.Scene();
 };
