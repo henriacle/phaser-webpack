@@ -1,7 +1,6 @@
-import 'phaser';
 import { SimpleGame } from './game';
 
 
 window.onload = () => {
-    var game = new SimpleGame.Scene();
+    var game = new SimpleGame.Level1();
 };
